@@ -9,7 +9,6 @@ def draw():
     smooth()
     strokeWeight(50)
     
-#width - ширина, height - высота
     translate(width/2, height /2)
     stroke(210)
     rotate(-PI/2)
