@@ -1,8 +1,8 @@
 windowWidth = 500
 windowHeight = 500
 ellipseSize = 100
-ellipseWidth = 200;
-ellipseHeight = 300;
+ellipseWidth = 200
+ellipseHeight = 300
 
 def setup():
     size(windowWidth , windowHeight)
@@ -13,7 +13,7 @@ def setup():
     strokeWeight(3)
     noLoop()
 def draw():
-    ellipse(windowWidth/2, windowHeight/2 - ellipseSize/2,ellipseWidth , ellipseHeight);
-    ellipse(windowWidth/2 - ellipseSize/2, windowHeight/2,ellipseWidth , ellipseHeight);
-    ellipse(windowWidth/2 + ellipseSize/2, windowHeight/2,ellipseWidth , ellipseHeight);
-    ellipse(windowWidth/2, windowHeight/2 + ellipseSize/2,ellipseWidth , ellipseHeight);
+    ellipse(windowWidth/2, windowHeight/2 - ellipseSize/2,ellipseWidth , ellipseHeight)
+    ellipse(windowWidth/2 - ellipseSize/2, windowHeight/2,ellipseWidth , ellipseHeight)
+    ellipse(windowWidth/2 + ellipseSize/2, windowHeight/2,ellipseWidth , ellipseHeight)
+    ellipse(windowWidth/2, windowHeight/2 + ellipseSize/2,ellipseWidth , ellipseHeight)
