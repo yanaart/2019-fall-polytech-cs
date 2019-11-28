@@ -3,6 +3,7 @@ windowHeight = 1000
 ellipseSize = 200
 
 def setup():
+    
     size(windowWidth , windowHeight)
     smooth()
     background(255)
@@ -12,6 +13,7 @@ def setup():
     noLoop()
 
 def draw():
+    
     ellipse(windowWidth/2, windowHeight/2 - ellipseSize/2,ellipseSize , ellipseSize)
     ellipse(windowWidth/2 - ellipseSize/2, windowHeight/2,ellipseSize , ellipseSize)
     ellipse(windowWidth/2 + ellipseSize/2, windowHeight/2,ellipseSize , ellipseSize)
