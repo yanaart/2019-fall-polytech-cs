@@ -1,4 +1,5 @@
 def setup():
+    
     size(500, 500)
     smooth()
     background(255)
@@ -8,6 +9,7 @@ def setup():
     strokeWeight(3)
 
 def draw():
+    
     ellipse(250,200,100,100)
     ellipse(250-50,250,100,100)
     ellipse(250+50,250,100,100)
