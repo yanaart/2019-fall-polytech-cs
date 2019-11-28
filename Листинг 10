@@ -5,6 +5,7 @@ def setup():
     noLoop()
 
 def draw():
+
     background(100);
 
     stroke(136, 29, 203)
