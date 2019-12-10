@@ -32,7 +32,7 @@ def draw():
     if (counter > 2*PI):
         counter = 0
 
-    counter1 += 0.01;
+    counter1 += 0.01
     
     if (counter1 > 2*PI):
         counter1 = 0
